@@ -1,5 +1,5 @@
-# Magic-8-Ball
-PJ's magic 8 ball is a fun twist on the original magic 8 ball game! Ask questions and recieve unique answers.
+# Magically-Magic-8-Ball
+The Magically Magic 8 Ball is a simialr look on the classic Magic 8 Ball fortune telling game that will give users a random answer to various questions asked.
 
 # 
 
