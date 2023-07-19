@@ -11,7 +11,7 @@ responses = [
     "You may rely on it.",
     "As I see it, yes.",
     "For real for real.",
-    "Outlook good.",
+    "Outlook is good.",
     "Yes.",
     "That is the way it is.",
     "Reply hazy, try again.",
@@ -25,7 +25,7 @@ responses = [
 
 
 def play_game():
-    inp = input('What you need from me, the Magically Magic 8 Ball? ')
+    inp = input('What do you need to know from me, the Magically Magic 8 Ball? ')
     print("You asked: '" + str(inp) + "'")
     time.sleep(.5)
     print("Let me see... ")
@@ -40,14 +40,14 @@ def play_game():
     play_again()  
 
 def play_again():
-    quest = input("What else you want from me? ")
+    quest = input("What else do you need to know from me? ")
     if quest == 'yes':
         print('')
         play_game()
     elif quest != 'yes':
         print('')
         time.sleep(1.5)
-        print('...Later bro! ...')
+        print('...Goodbye! ...')
         quit()
 
 play_game()
