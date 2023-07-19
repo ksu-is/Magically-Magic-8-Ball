@@ -4,28 +4,28 @@ import time
 
 
 responses = [
-    "Fasho",
+    "Of course.",
     "It is decidedly so.",
     "Without a doubt.",
-    "Yes definitely.",
+    "Yes, definitely.",
     "You may rely on it.",
     "As I see it, yes.",
     "For real for real.",
     "Outlook good.",
     "Yes.",
-    "Thats the way it is.",
+    "That is the way it is.",
     "Reply hazy, try again.",
     "Ask again later.",
-    "you know it!",
+    "You know it!",
     "Do not count on it.",
     "My reply is no.",
-    " No way loser.",
-    "Outlook not so good.",
+    "No way loser.",
+    "Outlook is not so good.",
     "Very doubtful."]
 
 
 def play_game():
-    inp = input('What you need from me, the magic 8 ball? ')
+    inp = input('What you need from me, the Magically Magic 8 Ball? ')
     print("You asked: '" + str(inp) + "'")
     time.sleep(.5)
     print("Let me see... ")
@@ -40,7 +40,7 @@ def play_game():
     play_again()  
 
 def play_again():
-    quest = input("What else you want from me fool? ")
+    quest = input("What else you want from me? ")
     if quest == 'yes':
         print('')
         play_game()
