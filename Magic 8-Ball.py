@@ -40,7 +40,7 @@ def play_game():
     play_again()  
 
 def play_again():
-    quest = input("What else do you need to know from me? ")
+    quest = input("Do you have another question for me? yes or no ")
     if quest == 'yes':
         print('')
         play_game()
