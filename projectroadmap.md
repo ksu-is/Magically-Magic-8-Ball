@@ -1,6 +1,6 @@
+- [X] Update GUI, ReadME and project roadmap for project 
 - [X] Find simliar code to follow from
 - [X] Put the repository into VS Code 
-- [X] Create roadmap
 - [X] Change the code a few times
 - [X] Make sure code runs properly
 - [X] Test different versions of code
